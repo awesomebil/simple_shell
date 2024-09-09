@@ -1,0 +1,8 @@
+# Directories to ignore
+.vscode
+shell.dSYM/
+shell.out.dSYM/
+
+# Files to ignore
+*.out
+shell
