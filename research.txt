@@ -1,0 +1,10 @@
+The workflow that needs to be implemented for a shell to start new processes is the fork, exec, wait cycle.
+This basically allows a new process to be spawned, execute whatever command it needs to, and the parent process waits for the child to finish executing to avoid zombie processes.
+There are addional shell features beyond the basics that will be useful to implement as well such as:
+1. Input/output redirection
+2. Piping
+3. command history
+4. Wildcards
+5. Background processes/job control
+
+For now implementing the basics is a good enough start but eventually programming some of the more advanced shell features is a good idea not just as a learning exercise but also to make the shell more useful.
